@@ -1,0 +1,121 @@
+component ATB.CDI.SpecifiqueControl
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+   
+public method ATBICDICheckAuthAprLevel ()
+{
+    jBC: ATB.V.CDI.CHECK.AUTH.APR.LEVEL
+}
+                                                                
+public method ATBICDIOfsAuthLC ()
+{
+    jBC: ATB.V.CDI.OFS.AUTH.LC
+}
+                        
+public method ATBICDIOfsAuthoriseLC ()
+{
+    jBC: ATB.V.CDI.OFS.AUTHORISE.LC
+}
+
+public method ATBICDIRefAtb ()
+{
+    jBC: ATB.V.CDI.REF.ATB
+}
+
+public method ATBICDIDao ()
+{
+    jBC: ATB.V.CDI.DAO
+}
+
+public method ATBICDIAuthMntLC ()
+{
+    jBC: ATB.V.CDI.AUTH.MNTLC
+}
+
+public method ATBICDILEchLC ()
+{
+    jBC: ATB.V.CDI.LECH.LC
+}
+
+public method ATBICDILUserInit ()
+{
+    jBC: ATB.V.CDI.LUSER.INIT
+}
+
+public method ATBICDIGpSt ()
+{
+    jBC: ATB.V.CDI.GP.ST
+}
+
+public method ATBICDIAprLevel ()
+{
+    jBC: ATB.V.CDI.APR.LEVEL
+}
+
+public method ATBICDILSuspens ()
+{
+    jBC: ATB.V.CDI.LSUSPENS
+}
+
+public method ATBICDIAprLevelEndos ()
+{
+    jBC: ATB.V.CDI.APR.LEVEL.ENDOS
+}
+
+public method ATBICDILStOpNv ()
+{
+    jBC: ATB.V.CDI.ST.OP.NV
+}
+
+public method ATBICDICheckAutLevelUser (
+    INOUT Y.REC.BOOL,
+    INOUT Y.REC.VALUE
+)
+{
+    jBC: ATB.V.CDI.CHECK.AUTLEVEL.USER
+}
+
+public method ATBCDICheckAutLevel ()
+{
+    jBC: ATB.V.CDI.CHECK.AUTLEVEL
+}
+
+public method ATBICDICheckAutLevelTrans (
+    
+INOUT Y.REC.TR)
+{
+    jBC: ATB.V.CDI.CHECK.AUTLEVEL.TRANS
+}
+
+public method AtbECDIBuildTfImpLcNau(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPLCNAU
+}
+
+public method AtbECDIBuildTfImpLc(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPLC
+}
+
+public method AtbECDIBuildTfImpLcHis(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPLCHIS
+}
+
+public method AtbECDIBuildTfImpDr(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPDR
+}
+
+public method AtbECDIBuildTfImpDrNau(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPDRNAU
+}
+
+public method AtbECDIBuildTfImpDrHis(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.CDI.BUILD.TF.IMPDRHIS
+}
+
+
