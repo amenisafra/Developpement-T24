@@ -1,0 +1,118 @@
+component LC.AtbRDISpecifiqueControl
+# Component Isolation Definition
+metamodelVersion 1.6
+# -------------------------------------------------
+public method ATBIRDICheckAuthAprLevel ()
+{
+    jBC: ATB.V.RDI.CHECK.AUTH.APR.LEVEL
+}
+                                                                
+public method ATBIRDIRefAtb ()
+{
+    jBC: ATB.V.RDI.REF.ATB
+}
+
+public method ATBIRDIDao ()
+{
+    jBC: ATB.V.RDI.DAO
+}
+
+public method ATBIRDIAuthMntLC ()
+{
+    jBC: ATB.V.RDI.AUTH.MNTLC
+}
+
+public method ATBIRDILEchLC ()
+{
+    jBC: ATB.V.RDI.LECH.LC
+}
+
+public method ATBIRDILUserInit ()
+{
+    jBC: ATB.V.RDI.LUSER.INIT
+}
+
+public method ATBIRDIGpSt ()
+{
+    jBC: ATB.V.RDI.GP.ST
+}
+
+public method ATBIRDIAprLevel ()
+{
+    jBC: ATB.V.RDI.APR.LEVEL
+}
+
+public method ATBIRDILSuspens ()
+{
+    jBC: ATB.V.RDI.LSUSPENS
+}
+
+public method ATBIRDIAprLevelEndos ()
+{
+    jBC: ATB.V.RDI.APR.LEVEL.ENDOS
+}
+
+public method ATBIRDILStOpNv ()
+{
+    jBC: ATB.V.RDI.ST.OP.NV
+}
+
+public method ATBIRDICheckAutLevelUser (
+    INOUT Y.REC.BOOL,
+    INOUT Y.REC.VALUE
+)
+{
+    jBC: ATB.V.RDI.CHECK.AUTLEVEL.USER
+}
+
+public method ATBIRDICheckAutLevel ()
+{
+    jBC: ATB.V.RDI.CHECK.AUTLEVEL
+}
+
+public method ATBIRDICheckAutLevelTrans (
+    
+INOUT Y.REC.TR)
+{
+    jBC: ATB.V.RDI.CHECK.AUTLEVEL.TRANS
+}
+
+public method ATBIRDICheckLcType ()
+{
+    jBC: ATB.V.RDI.CHECK.LC.TYPE
+}
+
+public method AtbIntDao(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.INT.DAO
+}
+
+public method AtbERdiBuildTfImpLcNau(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPLCNAU
+}
+
+public method AtbERdiBuildTfImpLc(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPLC
+}
+
+public method AtbERdiBuildTfImpLcHis(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPLCHIS
+}
+
+public method AtbERdiBuildTfImpDr(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPDR
+}
+
+public method AtbERdiBuildTfImpDrNau(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPDRNAU
+}
+
+public method AtbERdiBuildTfImpDrHis(INOUT ENQ.DATA)
+{
+    jBC: ATB.E.RDI.BUILD.TF.IMPDRHIS
+}
