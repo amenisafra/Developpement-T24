@@ -9,6 +9,7 @@
 * @ValidationInfo : Strict flag       : N/A
 * @ValidationInfo : Bypass GateKeeper : false
 * @ValidationInfo : Compiler Version  : R20_SP4.0
+* test build jenkins
 $PACKAGE ATB.CDI.SpecifiqueControl
 *
 * Implementation of ATB.CDI.SpecifiqueControl.AtbECDIBuildTfImpDr
